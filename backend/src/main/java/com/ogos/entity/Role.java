@@ -1,5 +1,7 @@
 package com.ogos.entity;
 
-public class Role {
-    
+public enum Role {
+    ROLE_CUSTOMER,
+    ROLE_VENDOR,
+    ROLE_ADMIN
 }
